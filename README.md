@@ -6,7 +6,6 @@ To send SMS to any Phone Number, follow the steps
 1) Clone the Repo
 `git clone https://github.com/meghnaparsan/SendSMSFromTwilio.git`
 
-<<<<<<< HEAD
 ## Twilio
 1) Create a [Twilio Account](https://www.twilio.com/console) and get a Phone Number. (Trial Account provides one Phone Number for free)
 2) From the Twilio console, get the AccountSID and AuthToken.
@@ -22,7 +21,6 @@ To send SMS to any Phone Number, follow the steps
 3) From the Twilio console, get the AccountSID and AuthToken.
 4) Create a SendGrid Account, and complete the "SenderAuthentication"
 5) Create two files in the Project root Directory
->>>>>>> 1313de85088181f9ce95d92b8f84ae3594dafab9
   - appsettings.Development.json
   - appsettings.json
   
@@ -40,14 +38,11 @@ To send SMS to any Phone Number, follow the steps
   "AppVariables": {
     "AccountSID": "YOUR-ACCOUNT-SID",
     "AuthToken": "YOUR-AUTH-TOKEN",
-<<<<<<< HEAD
     "ApiKey": "SENG-GRID-API-KEY",
     "PhoneNumber": "TWILIO-NUMBER",
     "SenderEmail": "SENDER-EMAIL",
     "ReceiverEmail": "RECEIVER-EMAIL"
-=======
     "ApiKey": "YOUR-API-KEY" 
->>>>>>> 1313de85088181f9ce95d92b8f84ae3594dafab9
   }
 }
  ```
