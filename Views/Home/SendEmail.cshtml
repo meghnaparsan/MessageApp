@@ -1,0 +1,28 @@
+@model MessageApp.Models.EmailForm
+@{
+    ViewBag.Title = "Send EMail";
+}
+
+<h2>Send Email</h2>
+
+@ViewBag.Message
+
+@using (Html.BeginForm("SendEmail", "Home", FormMethod.Post))
+{
+@Html.ValidationSummary()
+<div class="row">
+    <div class="col-lg-2">
+        Message
+    </div>
+    <div class="col-lg-10">
+        @Html.TextAreaFor(a => a.Message)
+    </div>
+</div>
+<br />
+<div class="row">
+
+    <div class="col-lg-offset-2">
+        <input type="submit" class="btn btn-primary" value="Send Email" />
+    </div>
+</div>
+}
